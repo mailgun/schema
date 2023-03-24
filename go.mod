@@ -1,3 +1,3 @@
-module github.com/gorilla/schema
+module github.com/mailgun/schema
 
-go 1.14
+go 1.18
