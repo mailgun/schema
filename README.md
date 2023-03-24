@@ -1,11 +1,9 @@
 schema
 ======
-[![GoDoc](https://godoc.org/github.com/gorilla/schema?status.svg)](https://godoc.org/github.com/gorilla/schema)
-[![CircleCI](https://circleci.com/gh/gorilla/mux.svg?style=svg)](https://circleci.com/gh/gorilla/schema)
-[![Sourcegraph](https://sourcegraph.com/github.com/gorilla/schema/-/badge.svg)](https://sourcegraph.com/github.com/gorilla/schema?badge)
+[![GoDoc](https://godoc.org/github.com/mailgun/schema?status.svg)](https://godoc.org/github.com/mailgun/schema)
 
 
-Package gorilla/schema converts structs to and from form values.
+Package mailgun/schema converts structs to and from form values.
 
 ## Example
 
@@ -83,8 +81,6 @@ The supported field types in the struct are:
 * a slice or a pointer to a slice of one of the above types
 
 Unsupported types are simply ignored, however custom types can be registered to be converted.
-
-More examples are available on the Gorilla website: https://www.gorillatoolkit.org/pkg/schema
 
 ## License
 
